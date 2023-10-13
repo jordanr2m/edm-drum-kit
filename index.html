@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎵 DJ Drum Kit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Press Your Keys to DJ!</h1>
+        <div class="key-container">
+            <div data-key="a" class="key">
+                <kbd>A</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="s" class="key">
+                <kbd>S</kbd>
+                <span class="sound">hat</span>
+            </div>
+            <div data-key="d" class="key">
+                <kbd>D</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="f" class="key">
+                <kbd>F</kbd>
+                <span class="sound">drop</span>
+            </div>
+            <div data-key="g" class="key">
+                <kbd>G</kbd>
+                <span class="sound">pop</span>
+            </div>
+            <div data-key="h" class="key">
+                <kbd>H</kbd>
+                <span class="sound">keys</span>
+            </div>
+            <div data-key="j" class="key">
+                <kbd>J</kbd>
+                <span class="sound">synth</span>
+            </div>
+            <div data-key="k" class="key">
+                <kbd>K</kbd>
+                <span class="sound">snap</span>
+            </div>
+            <div data-key="l" class="key">
+                <kbd>L</kbd>
+                <span class="sound">boop</span>
+            </div>
+        </div>
+    </div>
+
+    <audio data-key="a" src="audio/snap.wav"></audio>
+    <audio data-key="s" src="audio/hat.wav"></audio>
+    <audio data-key="d" src="audio/clap.wav"></audio>
+    <audio data-key="f" src="audio/drop.wav"></audio>
+    <audio data-key="g" src="audio/pop.wav"></audio>
+    <audio data-key="h" src="audio/keys.wav"></audio>
+    <audio data-key="j" src="audio/synth.wav"></audio>
+    <audio data-key="k" src="audio/snap.wav"></audio>
+    <audio data-key="l" src="audio/boop.wav"></audio>
+
+</body>
